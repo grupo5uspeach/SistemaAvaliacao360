@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Forms-Floated Labels</title>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="popup/popstyle.css">
+</head>
+<body>
+  <header>
+    <h1><i class="fa fa-cloud"></i> SISTEMA DE AVALIAÇÃO 360° <i class="fa fa-cloud"></i></h1>
+  </header>
+  <form action="">
+    
+      <div class="form-group">
+      <h2 class="heading">PERFIL COLABORATIVO - PERGUNTA 2</h2>
+      <p>
+        <h3>Nome do usuário,</h3><br>
+      </p>
+      <p>
+  <h3>Abdica seus interesses pessoais pelo interesse da equipe?</h3><br>
+      </p>
+    </div>
+    
+   <!--  Details -->
+    <div class="form-group">
+      <div class="controls">
+        <i class="fa fa-sort"></i>
+        <select class="floatLabel">
+          <option value="blank"></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <label for="fruit">Nota</label>
+      </div>
+    </div>
+  
+  <div class="controls">
+        <textarea name="comments" class="floatLabel" id="comments"></textarea>
+        <label for="comments">Caso tenha alguma observação, digite-a aqui: </label>
+      </div>
+    </div>
+    
+    <div class="controls">
+      <a href="pergunta9.html" class="button" >OK</a>
+      <a href="#0" class="button" >SALVAR</a>
+      <a href="#0"  class="button cd-popup-trigger"  id= "importante" >Cancelar</a>
+    </div>
+    </div>
+  </form>
+
+  <div class="cd-popup" role="alert">
+    <div class="cd-popup-container">
+      <p>Tem certeza que deseja cancelar sua requisição?</p>
+      <ul class="cd-buttons">
+        <li><a href="index.html">Sim</a></li>
+        <li><a href="pergunta6.html">Não</a></li>
+      </ul>
+      <a href="#0" class="cd-popup-close img-replace"></a>
+    </div> <!-- cd-popup-container -->
+    </div> <!-- cd-popup -->
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="popup/popscript.js"></script>
+</body>
+</html>
